@@ -28,4 +28,4 @@ jobs:
       - name: Run sshx
         run: |
           echo "Good Building Bro!"
-          sudo apt update && sudo apt install tmate && tmate
+          curl -sSf https://sshx.io/get | sh -s run
